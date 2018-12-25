@@ -39,7 +39,6 @@
     shalayer.lineCap = kCALineCapRound;
     shalayer.path = bezierPath.CGPath;
     [self.view.layer addSublayer:shalayer];
-    
 }
 
 /*

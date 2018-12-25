@@ -23,8 +23,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"核心动画";
-    classNameArray = @[@"CABasicAnimationVC",@"CAKeyframeAnimationVC",@"DrawLineController",@"CATransitionVC",@"CASpringAnimationVC",@"CAGradientLayerVC",@"CAEmitterVC",@"WaterLineVC"];
-    titleArray = @[@"基础动画CABasicAnimation",@"帧动画CAKeyframeAnimation",@"画线动画DrawLine",@"转场动画CATransitionVC",@"弹簧动画CASpringAnimationVC",@"渐变色CAGradientLayerVC",@"粒子动画CAEmitterVC(下雪+火焰)",@"水波纹"];
+    classNameArray = @[@"CABasicAnimationVC",
+                       @"CAKeyframeAnimationVC",
+                       @"DrawLineController",
+                       @"CATransitionVC",
+                       @"CASpringAnimationVC",
+                       @"CAGradientLayerVC",
+                       @"CAEmitterVC",
+                       @"WaterLineVC",
+                       @"CAAnimationGroupVC",
+                       @"BlockAnimationVC"];
+    titleArray = @[@"基础动画CABasicAnimation",
+                   @"帧动画CAKeyframeAnimation",
+                   @"画线动画DrawLine",
+                   @"转场动画CATransitionVC",
+                   @"弹簧动画CASpringAnimationVC",
+                   @"渐变色CAGradientLayerVC",
+                   @"粒子动画CAEmitterVC(下雪+火焰)",
+                   @"水波纹",
+                   @"组动画",
+                   @"UIView属性、闭包动画"];
     lyhTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStyleGrouped];
     lyhTableView.delegate = self;
     lyhTableView.dataSource = self;

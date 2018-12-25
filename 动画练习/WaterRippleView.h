@@ -21,13 +21,3 @@
 //设置frame 主波填充颜色  次波填充颜色 主波偏移量 次波偏移量 波浪速度 波浪Y轴位置 波浪振幅
 - (instancetype)initWithFrame:(CGRect)frame mainRippleColor:(UIColor *)mainRippleColor minorRippleColor:(UIColor *)minorRippleColor mainRippleoffsetX:(float)mainRippleoffsetX minorRippleoffsetX:(float)minorRippleoffsetX rippleSpeed:(float)rippleSpeed ripplePosition:(float)ripplePosition rippleAmplitude:(float)rippleAmplitude;
 @end
-/*
- self.backgroundColor = [UIColor redColor];
- self.mainRippleColor = [UIColor colorWithRed:255/255.0f green:127/255.0f blue:80/255.0f alpha:1];
- self.minorRippleColor = [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1];
- self.mainRippleoffsetX = 1;
- self.minorRippleoffsetX = 2;
- self.rippleSpeed = 1.0f;
- self.ripplePosition = 190.0f;
- self.rippleAmplitude = 5;
- */

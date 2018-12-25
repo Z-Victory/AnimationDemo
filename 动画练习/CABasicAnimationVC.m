@@ -256,7 +256,6 @@
     [view17.layer addAnimation:moveAnimation17 forKey:@"moveAnimation17"];
     
     lyhScrollView.contentSize = CGSizeMake(SCREEN_WIDTH, DEF_BOTTOM(view16));
-    
 }
 
 /*

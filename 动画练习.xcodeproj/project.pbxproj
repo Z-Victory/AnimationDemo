@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5931231921D1D0ED003EEC8E /* CAAnimationGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931231821D1D0ED003EEC8E /* CAAnimationGroupVC.m */; };
+		5931231C21D1DBD5003EEC8E /* BlockAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931231B21D1DBD5003EEC8E /* BlockAnimationVC.m */; };
+		5931231F21D1DD67003EEC8E /* PracticeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931231E21D1DD67003EEC8E /* PracticeVC.m */; };
+		5931232221D1E2D2003EEC8E /* PracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931232121D1E2D2003EEC8E /* PracticeViewController.m */; };
 		597031A321D0AC280015FF43 /* CASpringAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 597031A221D0AC280015FF43 /* CASpringAnimationVC.m */; };
 		597031A621D0AD380015FF43 /* CAGradientLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 597031A521D0AD380015FF43 /* CAGradientLayerVC.m */; };
 		597031AA21D0BAFC0015FF43 /* CAEmitterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 597031A921D0BAFC0015FF43 /* CAEmitterVC.m */; };
@@ -43,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5931231721D1D0ED003EEC8E /* CAAnimationGroupVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAAnimationGroupVC.h; sourceTree = "<group>"; };
+		5931231821D1D0ED003EEC8E /* CAAnimationGroupVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAnimationGroupVC.m; sourceTree = "<group>"; };
+		5931231A21D1DBD5003EEC8E /* BlockAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockAnimationVC.h; sourceTree = "<group>"; };
+		5931231B21D1DBD5003EEC8E /* BlockAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockAnimationVC.m; sourceTree = "<group>"; };
+		5931231D21D1DD67003EEC8E /* PracticeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticeVC.h; sourceTree = "<group>"; };
+		5931231E21D1DD67003EEC8E /* PracticeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeVC.m; sourceTree = "<group>"; };
+		5931232021D1E2D2003EEC8E /* PracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticeViewController.h; sourceTree = "<group>"; };
+		5931232121D1E2D2003EEC8E /* PracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeViewController.m; sourceTree = "<group>"; };
 		597031A121D0AC280015FF43 /* CASpringAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASpringAnimationVC.h; sourceTree = "<group>"; };
 		597031A221D0AC280015FF43 /* CASpringAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASpringAnimationVC.m; sourceTree = "<group>"; };
 		597031A421D0AD380015FF43 /* CAGradientLayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerVC.h; sourceTree = "<group>"; };
@@ -150,6 +162,14 @@
 				597031AC21D0CB590015FF43 /* WaterLineVC.m */,
 				597031B721D0E4520015FF43 /* WaterRippleView.h */,
 				597031B821D0E4520015FF43 /* WaterRippleView.m */,
+				5931231721D1D0ED003EEC8E /* CAAnimationGroupVC.h */,
+				5931231821D1D0ED003EEC8E /* CAAnimationGroupVC.m */,
+				5931231A21D1DBD5003EEC8E /* BlockAnimationVC.h */,
+				5931231B21D1DBD5003EEC8E /* BlockAnimationVC.m */,
+				5931232021D1E2D2003EEC8E /* PracticeViewController.h */,
+				5931232121D1E2D2003EEC8E /* PracticeViewController.m */,
+				5931231D21D1DD67003EEC8E /* PracticeVC.h */,
+				5931231E21D1DD67003EEC8E /* PracticeVC.m */,
 				59B93B8A21C9DEDF00CEA0FA /* Assets.xcassets */,
 				59B93BBA21CB603600CEA0FA /* Launch Screen.storyboard */,
 				59B93B8F21C9DEDF00CEA0FA /* Info.plist */,
@@ -306,15 +326,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				597031A621D0AD380015FF43 /* CAGradientLayerVC.m in Sources */,
+				5931231C21D1DBD5003EEC8E /* BlockAnimationVC.m in Sources */,
 				597031AA21D0BAFC0015FF43 /* CAEmitterVC.m in Sources */,
 				597031A321D0AC280015FF43 /* CASpringAnimationVC.m in Sources */,
 				59B93BB821CB2E8700CEA0FA /* CAKeyframeAnimationVC.m in Sources */,
+				5931231F21D1DD67003EEC8E /* PracticeVC.m in Sources */,
 				597031AD21D0CB590015FF43 /* WaterLineVC.m in Sources */,
 				59B93BBE21CB8D0100CEA0FA /* CATransitionVC.m in Sources */,
 				597031B921D0E4530015FF43 /* WaterRippleView.m in Sources */,
 				59B93B8621C9DEDE00CEA0FA /* ViewController.m in Sources */,
 				59B93B9121C9DEDF00CEA0FA /* main.m in Sources */,
+				5931231921D1D0ED003EEC8E /* CAAnimationGroupVC.m in Sources */,
 				59B93BB521CB2E5300CEA0FA /* CABasicAnimationVC.m in Sources */,
+				5931232221D1E2D2003EEC8E /* PracticeViewController.m in Sources */,
 				59B93BC121CB8D8400CEA0FA /* DrawLineController.m in Sources */,
 				59B93B8321C9DEDE00CEA0FA /* AppDelegate.m in Sources */,
 			);
@@ -468,7 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q33S7U48XM;
 				INFOPLIST_FILE = "动画练习/Info.plist";
@@ -486,7 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q33S7U48XM;
 				INFOPLIST_FILE = "动画练习/Info.plist";
